@@ -1,0 +1,63 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'first.css' %}">
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Онлайн-магазин комплектующих для ПК</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Магазин комплектующих для ПК</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Продукция</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="products">
+        <div class="container">
+            <h2>Наша продукция</h2>
+            <div class="product">
+                <img src="../static/product1.jpg" alt="Комплектующее 1">
+                <h3>Видеокарта GeForce RTX 3080</h3>
+                <p>Мощная видеокарта для игр высокого разрешения и виртуальной реальности.</p>
+                <span class="price">100 000 руб.</span>
+                <button>Добавить в корзину</button>
+            </div>
+            <div class="product">
+                <img src="../static/product2.jpg" alt="Комплектующее 2">
+                <h3>Процессор Intel Core i9-11900K</h3>
+                <p>Процессор нового поколения с высокой производительностью и поддержкой технологий искусственного интеллекта.</p>
+                <span class="price">50 000 руб.</span>
+                <button>Добавить в корзину</button>
+            </div>
+            <div class="product">
+                <img src="../static/product3.jpg" alt="Комплектующее 3">
+                <h3>Материнская плата ASUS ROG Strix Z590-E Gaming</h3>
+                <p>Продвинутая материнская плата с поддержкой разгона и множеством портов для подключения устройств.</p>
+                <span class="price">25 000 руб.</span>
+                <button>Добавить в корзину</button>
+            </div>
+            <div class="product">
+                <img src="../static/product4.jpg" alt="Комплектующее 4">
+                <h3>SSD накопитель Samsung 970 EVO Plus 1 ТБ</h3>
+                <p>Быстрый SSD накопитель с большим объемом памяти для хранения данных и ускорения загрузки операционной системы.</p>
+                <span class="price">15 000 руб.</span>
+                <button>Добавить в корзину</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Онлайн-магазин комплектующих для ПК</p>
+        </div>
+    </footer>
+</body>
+</html>
